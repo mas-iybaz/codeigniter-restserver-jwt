@@ -11,10 +11,11 @@ A fully RESTful server implementation for CodeIgniter using JWT for Authenticati
 	password = 12345678
   
 - If your authentication success you will get generated token response
-- To test it, go create GET method from Postman "http://localhost/codeigniter-restserver-jwt/main/test" and then you can attach that generated token you've got to the header authentication bearer token. see example bellow :
+- To test it, go create GET method from Postman "https://localhost/codeigniter-restserver-jwt/main/test" and then you can attach that generated token you've got to the header authentication bearer token. see example bellow :
+
 	Authentication: Bearer "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImtheWxlZS5seW5jaEBtZXR6LmNvbSIsImlhdCI6MTU5MjI5NjkxNCwiZXhwIjoxNTkyMjk3MjE0fQ.Oo1MNAUumx-DWyYqzlMr7MjzKb-8Tx2m5xmhWLsIcMU"  
-- To test fetching data from database, go create GET method from Postman "http://localhost/codeigniter-restserver-jwt/main/users" and then you can attach that generated token you've got to the header authentication bearer token. see example bellow :
-	Authentication: Bearer "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImtheWxlZS5seW5jaEBtZXR6LmNvbSIsImlhdCI6MTU5MjI5NjkxNCwiZXhwIjoxNTkyMjk3MjE0fQ.Oo1MNAUumx-DWyYqzlMr7MjzKb-8Tx2m5xmhWLsIcMU"
+	
+- To test fetching data from database, go create GET method from Postman "https://localhost/codeigniter-restserver-jwt/main/users" and then you can attach that generated token you've got to the header authentication bearer token like the example above.
 
 ## Reference
 This project Using REST by Phil Sturgeon and Firebase/PHP-JWT. And this project is inspired by Dodi Prasetyo (https://github.com/dodistyo/ci-rest-jwt)
