@@ -2,9 +2,9 @@
 A fully RESTful server implementation for CodeIgniter using JWT for Authentication
 
 ## Notes
-- Import Database from /db/abyakta.db
+- Import Database from /db/abyakta.sql
 - Test it with Postman
-- Create POST method from postman for user authentication "http://localhost/codeigniter-restserver-jwt/auth/login"
+- Create POST method from postman for user authentication "https://localhost/codeigniter-restserver-jwt/auth/login"
 - Add this to body multipart form (for example) :
 	
 	email    = kaylee.lynch@metz.com
